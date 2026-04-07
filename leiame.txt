@@ -1,0 +1,13 @@
+Instruções
+
+1. Execute o arquivo de configuração dos pacotes necessários de acordo com o seu sistema operacional.
+2. Nas configurações do MCP adicione o caminho para o arquivo
+
+{
+  "mcpServers": {
+    "google-antigravity": {
+      "command": "python",
+      "args": ["/caminho/para/seu/projeto/gas_mcp.py"]
+    }
+  }
+}
